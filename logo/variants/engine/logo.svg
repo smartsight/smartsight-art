@@ -1,32 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="800px" height="950px" viewBox="0 0 800 950" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
-    <title>variants/engine/logo</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <circle id="path-1" cx="127" cy="127" r="126.027397"></circle>
-    </defs>
-    <g id="Logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="logo">
-            <g>
-                <circle id="dark-background" fill="#37474F" fill-rule="evenodd" cx="400" cy="400" r="400"></circle>
-                <circle id="white-background" fill="#FFFFFF" fill-rule="evenodd" cx="400" cy="400" r="180.821918"></circle>
-                <g id="lens" stroke-width="1" fill-rule="evenodd" transform="translate(273.000000, 273.000000)">
-                    <mask id="mask-2" fill="white">
-                        <use xlink:href="#path-1"></use>
-                    </mask>
-                    <use fill="#7986CB" xlink:href="#path-1"></use>
-                    <g id="color/engine" mask="url(#mask-2)" fill="#009688">
-                        <rect id="Rectangle" x="0" y="0" width="254" height="254"></rect>
-                    </g>
-                </g>
-                <ellipse id="pupil" fill="#37474F" fill-rule="evenodd" cx="402.739726" cy="400" rx="65.7534247" ry="65.7534247"></ellipse>
-                <circle id="reflection" fill="#FFFFFF" fill-rule="evenodd" cx="435.616438" cy="367.123288" r="32.8767123"></circle>
-                <circle id="circle-dashed" stroke="#FFFFFF" stroke-width="16" stroke-dasharray="1,13" cx="400" cy="400" r="263.013699"></circle>
-            </g>
-            <text id="engine" font-family="Raleway-Regular, Raleway" font-size="72" font-weight="normal" letter-spacing="0.5625" fill="#009688">
-                <tspan x="284.4765" y="908">engine</tspan>
-            </text>
-        </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="950" viewBox="0 0 800 950">
+  <defs>
+    <circle id="logo-a" cx="127" cy="127" r="126.027"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="400" cy="400" r="400" fill="#37474F"/>
+    <circle cx="400" cy="400" r="180.822" fill="#FFF"/>
+    <g transform="translate(273 273)">
+      <mask id="logo-b" fill="#fff">
+        <use xlink:href="#logo-a"/>
+      </mask>
+      <use fill="#7986CB" xlink:href="#logo-a"/>
+      <g fill="#009688" mask="url(#logo-b)">
+        <rect width="254" height="254"/>
+      </g>
     </g>
+    <ellipse cx="402.74" cy="400" fill="#37474F" rx="65.753" ry="65.753"/>
+    <circle cx="435.616" cy="367.123" r="32.877" fill="#FFF"/>
+    <circle cx="400" cy="400" r="263.014" stroke="#FFF" stroke-dasharray="1 13" stroke-width="16"/>
+    <text fill="#009688" font-family="Raleway-Regular, Raleway" font-size="92" letter-spacing=".719">
+      <tspan x="252.248" y="926">engine</tspan>
+    </text>
+  </g>
 </svg>
