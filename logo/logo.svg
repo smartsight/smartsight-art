@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="292px" height="292px" viewBox="0 0 292 292" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
     <title>logo</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <defs>
+        <circle id="path-1" cx="127" cy="127" r="126.027397"></circle>
+    </defs>
+    <g id="Logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="logo">
-            <circle id="dark-background" fill="#37474F" cx="146" cy="146" r="146"></circle>
-            <circle id="white-background" fill="#FFFFFF" cx="146" cy="146" r="66"></circle>
-            <circle id="lens" fill="#7986CB" cx="146" cy="146" r="46"></circle>
-            <circle id="pupil" fill="#37474F" cx="147" cy="146" r="24"></circle>
-            <ellipse id="reflection" fill="#FFFFFF" cx="159" cy="134" rx="12" ry="12"></ellipse>
-            <circle id="circle" stroke="#FFFFFF" stroke-width="10" stroke-dasharray="1,8" cx="146" cy="146" r="96"></circle>
+            <g>
+                <circle id="dark-background" fill="#37474F" fill-rule="evenodd" cx="400" cy="400" r="400"></circle>
+                <circle id="white-background" fill="#FFFFFF" fill-rule="evenodd" cx="400" cy="400" r="180.821918"></circle>
+                <g id="lens" stroke-width="1" fill-rule="evenodd" transform="translate(273.000000, 273.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use fill="#7986CB" xlink:href="#path-1"></use>
+                    <g id="color/api" mask="url(#mask-2)" fill="#7986CB">
+                        <rect id="Rectangle" x="0" y="0" width="254" height="254"></rect>
+                    </g>
+                </g>
+                <ellipse id="pupil" fill="#37474F" fill-rule="evenodd" cx="402.739726" cy="400" rx="65.7534247" ry="65.7534247"></ellipse>
+                <circle id="reflection" fill="#FFFFFF" fill-rule="evenodd" cx="435.616438" cy="367.123288" r="32.8767123"></circle>
+                <circle id="circle-dashed" stroke="#FFFFFF" stroke-width="16" stroke-dasharray="1,13" cx="400" cy="400" r="263.013699"></circle>
+            </g>
         </g>
     </g>
 </svg>
